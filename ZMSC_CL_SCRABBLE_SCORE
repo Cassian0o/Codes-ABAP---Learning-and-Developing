@@ -1,4 +1,4 @@
-CLASS zcl_scrabble_score DEFINITION PUBLIC. 
+CLASS zmsc_cl_scrabble_score DEFINITION PUBLIC. 
 
      PUBLIC SECTION. 
 
@@ -18,7 +18,7 @@ CLASS zcl_scrabble_score DEFINITION PUBLIC.
 ENDCLASS.
 
 
-CLASS zcl_scrabble_score IMPLEMENTATION. 
+CLASS msc_ IMPLEMENTATION. 
 
     METHOD score.
 
@@ -53,4 +53,4 @@ CLASS zcl_scrabble_score IMPLEMENTATION.
         result = sum.    "Atribui a soma total (a pontuação calculada) ao resultado.
 
     ENDMETHOD.  
-ENDCLASS. 
+ENDCLASS.    "Fim da implementação da classe
